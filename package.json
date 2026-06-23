@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "description": "End-to-end UI automation suite for SauceDemo, built with Playwright using the Page Object Model. Covers authentication, product catalog, cart, and checkout flows.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  },
+  "author": "Nigar Kana",
+  "license": "MIT"
+}
